@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- BOOTSTRAP 3-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- FONTS -->
     <link rel="stylesheet" href="#">
     <!-- ICONS -->
@@ -16,112 +18,144 @@
 </head>
 
 <body>
-    
+
     <!-- HEADER -->
     <header class="main-header bg_blue">
+
+        <!-- Navigation -->
         <div class="container">
-            <h2>HEADER</h2>
             <div class="row">
-                <div class="col-xs-12 col-sm-12"></div>
-            </div>         
+                <div class="col-xs-12">
+                    <nav class="navbar navbar-inverse navbar-fixed-top my-navbar bg_blue">
+                        <div class="container">
+                            <div class="row navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand my-brand" href="#">START BOOTSTRAP</a>
+                            </div>
+
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-right my-nav">
+                                    <li><a href="#">PORTFOLIO</a></li>
+                                    <li><a href="#">ABOUT</a></li>
+                                    <li><a href="#">CONTACT</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
         </div>
     </header>
 
     <!-- MAIN -->
+    <main>
 
-    <!-- Jumbotron -->
-    <section class="jumbotron bg_azure">
-        <div class="container">
-            <h2>JUMBOTRON</h2>
-            <div class="row">
-                <div class="col-xs-12"></div>
-            </div>  
-        </div>           
-    </section>
-
-    <!-- Portfolio -->
-    <section class="portfolio">
-        <div class="container">
-            <h2>PORTFOLIO</h2>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div>IMG 1</div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                   <div> IMG 2</div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                   <div> IMG 3</div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                   <div> IMG 4</div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                   <div> IMG 5</div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                   <div> IMG 6</div>
+        <!-- JUMBOTRON -->
+        <section class="jumbotron bg_azure">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                        <img src="img/avatar.svg" class="img-responsive" alt="avatar">
+                        <h2>start bootstrap</h2>
+                        <div class="star">
+                            <hr><i class="fas fa-star"></i><hr>                          
+                        </div>
+                        <span>graphic artist - web designer - illustrator</span>
+                    </div>
                 </div>
             </div>
-        </div>    
-    </section>
+        </section>
 
-    <!-- About -->
-    <section class="about bg_aquamarine">
-        <div class="container">
-            <h2>ABOUT</h2>
-             <div class="row">
-                 <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-2">
-                     <p>About</p>
-                 </div>
-                 <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-2">
-                     <p>About2</p>
-                 </div>
-             </div>
-        </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="contact">
-        <div class="container">
-            <h2>CONTACT ME</h2>  
-            <div class="row">
-                <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2">
-                    <p>Contacts</p>
+        <!-- Portfolio -->
+        <section class="portfolio">
+            <div class="container">
+                <h2>PORTFOLIO</h2>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div>IMG 1</div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div> IMG 2</div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div> IMG 3</div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div> IMG 4</div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div> IMG 5</div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div> IMG 6</div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Prefooter -->
-    <section class="prefooter bg_blue2">
-        <div class="container">
-            <h2>PREFOOTER</h2>
-            <div class="row">
-                <div class="col-xs-10 col-xs-offset-1 col-sm-3">
-                    <p>location</p>
+        <!-- About -->
+        <section class="about bg_aquamarine">
+            <div class="container">
+                <h2>ABOUT</h2>
+                <div class="row">
+                    <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-2 col-md-8 col-md-offset-2">
+                        <p>About</p>
+                    </div>
+                    <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-2 col-md-8 col-md-offset-2">
+                        <p>About2</p>
+                    </div>
                 </div>
-                <div class="col-xs-10 col-xs-offset-1 col-sm-3">
-                    <p>social</p>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact">
+            <div class="container">
+                <h2>CONTACT ME</h2>
+                <div class="row">
+                    <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2">
+                        <p>Contacts</p>
+                    </div>
                 </div>
-                <div class="col-xs-10 col-xs-offset-1 col-sm-3">
-                    <p>freelancer</p>
+            </div>
+        </section>
+
+        <!-- Prefooter -->
+        <section class="prefooter bg_blue2">
+            <div class="container">
+                <h2>PREFOOTER</h2>
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-3">
+                        <p>location</p>
+                    </div>
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-3">
+                        <p>social</p>
+                    </div>
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-3">
+                        <p>freelancer</p>
+                    </div>
                 </div>
-            </div>         
-        </div>
-    </section>
+            </div>
+        </section>
+    </main>
 
     <!-- FOOTER -->
     <footer class="footer bg_blue">
         <div class="container">
             <h2>FOOTER</h2>
             <div class="row">
-                <div class="col-xs-12 col-sm-12"></div>
-            </div>         
-        </div>        
+                <div class="col-xs-12"></div>
+            </div>
+        </div>
     </footer>
-    
-    
-</body>
-</html>
 
+
+</body>
+
+</html>
