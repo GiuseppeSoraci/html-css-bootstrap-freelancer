@@ -42,7 +42,7 @@ h2 {
 hr {
     display: inline-block;
     vertical-align: middle;
-    width: 30%;
+    width: 20%;
     text-align: center;
     border: 2px solid #fff;
 }
@@ -132,6 +132,38 @@ hr {
     padding: 10px 15px;
     font-size: 16px;
 }
+
+/* CONTACTS */
+.contacts {
+    color: #2c3e50;
+    padding-bottom: 40px;
+}
+
+.contacts hr {
+    border: 2px solid #2c3e50;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type=tel] {
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #2c3e50;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 25px 0;
+}
+
+.registration-form #message {
+    padding-bottom: 100px;
+}
+
+.registration-form ::placeholder {
+    color: #2c3e50;
+}
+
+
+
 
 
 
