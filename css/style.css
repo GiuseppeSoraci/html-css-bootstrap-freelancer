@@ -22,6 +22,35 @@ body {
     background: #3a546d
 }
 
+/* h2 */
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 0;
+}
+
+/* Star */
+.fa-star {
+    text-align: center;  
+    display: inline-block;
+    padding: 1em;
+    font-size: 20px;
+    vertical-align: middle;    
+}
+
+hr {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    text-align: center;
+    border: 2px solid #fff;
+}
+
+.star {
+   text-align: center;
+}
+
 /* HEADER */
 .main-header {
     margin-bottom: 79px;
@@ -61,22 +90,6 @@ body {
     margin: auto;
 }
 
-.jumbotron h2 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 50px;
-    padding: 0;
-}
-
-.jumbotron i {
-    text-align: center;  
-    display: inline-block;
-    padding: 1em;
-    font-size: 20px;
-    vertical-align: middle;
-    
-}
-
 .jumbotron span {
     display: block;
     text-align: center;
@@ -84,18 +97,41 @@ body {
     font-size: 20px;
 }
 
-.jumbotron .star {
-   text-align: center;
+/* PORTFOLIO */
+.portfolio {
+    color: #2c3e50;
+    padding-bottom: 40px;
 }
 
-.jumbotron hr {
-    display: inline-block;
-    vertical-align: middle;
-    width: 30%;
-    text-align: center;
-    border: 1px solid #fff;
+.portfolio hr {
+    border: 2px solid #2c3e50;
 }
 
+.portfolio img {
+    margin-bottom: 20px;
+}
+
+/* ABOUT */
+.about {
+    color: #fff;
+}
+
+.about-paragraph:first-child {
+    font-size: 20px;
+}
+
+.about .download{
+    text-align: center;   
+    padding: 30px; 
+}
+
+.my-btn-primary {
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+}
 
 
 
