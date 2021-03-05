@@ -188,6 +188,14 @@ hr {
     padding: 15px 13px;
 }
 
+.prefooter span {
+    font-size: 20px;
+}
+
+.prefooter .green {
+    color: #1abc9c;
+}
+
 
 /* FOOTER */
 .footer {
