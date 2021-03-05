@@ -76,7 +76,7 @@ hr {
 
 .main-header .my-nav > li > a:hover,
 .main-header .my-nav > li > a:active {
-    background-color: rgba(0,0,0, .2)
+    color: #1abc9c
 }
 
 /* MAIN */
@@ -108,7 +108,41 @@ hr {
 }
 
 .portfolio img {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+/* Animation Img */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.container-img:hover .overlay {
+    opacity: 1;
+    transition: .3s linear;
+}
+  
+ 
+.icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fa-user:hover {
+    color: #eee;
 }
 
 /* ABOUT */
@@ -133,6 +167,13 @@ hr {
     font-size: 16px;
 }
 
+.my-btn-primary:hover {   
+    color: #2c3e50;
+    background-color: #fff;
+    border-color: #2c3e50;
+    transition: .2s linear;    
+}
+
 /* CONTACTS */
 .contacts {
     color: #2c3e50;
@@ -148,7 +189,7 @@ hr {
 .registration-form input[type=tel] {
     font-size: 18px;
     border: none;
-    border-bottom: 1px solid #2c3e50;
+    border-bottom: 1px solid #cccccc; 
     border-radius: 0;
     box-shadow: none;
     padding: 25px 0;
@@ -161,6 +202,21 @@ hr {
 .registration-form ::placeholder {
     color: #2c3e50;
 }
+
+/* Focus */
+.registration-form input[type="text"]:focus,
+.registration-form input[type="email"]:focus,
+.registration-form input[type=tel]:focus {
+    border-color: #2c3e50;
+}
+
+/* Hover */
+.registration-form input[type="text"]:hover,
+.registration-form input[type="email"]:hover,
+.registration-form input[type=tel]:hover {
+    border-color: #2c3e50;
+}
+
 
 /* PREFOOTER */
 .prefooter {
@@ -180,6 +236,8 @@ hr {
     margin: 5px;
 }
 
+/* Icons */
+
 .prefooter .fa-facebook-f {
     padding: 15px 19px;
 }
@@ -194,6 +252,13 @@ hr {
 
 .prefooter .green {
     color: #1abc9c;
+}
+
+.prefooter i:hover {   
+    color: #2c3e50;
+    background-color: #fff;
+    border-color: #2c3e50;  
+    transition: .2s linear;  
 }
 
 

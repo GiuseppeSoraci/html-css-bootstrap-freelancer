@@ -1,0 +1,164 @@
+/*********************************************
+ RESPONSIVE 
+ *********************************************/
+
+ /* Mobile Version - xs */
+ @media screen and (max-width: 576px) {
+     
+    /* UTILITY */
+
+    /* h2, h3 */
+    h2,
+    h3 {
+        padding-top: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    /* JUMBOTRON */
+
+    .jumbotron span {
+        font-size: 12px;
+    }
+
+    /* PORTFOLIO */
+    .portfolio {
+        padding: auto;
+        padding-bottom: 10px;
+    }
+
+    .portfolio h2 {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .portfolio img {
+        margin-bottom: 20px;
+    }
+
+    /* ABOUT */
+    .about-paragraph {
+        padding-bottom: 15px;
+    }
+
+    .about .download {
+        padding-top: 10px;
+    }
+
+    /* CONTACT */
+    .registration-form input {
+        width: 80%
+    }
+
+    /* PREFOOTER */
+    .prefooter {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .prefooter span {
+        font-size: 12px;
+    }
+
+    .prefooter i {
+        font-size: 12px;
+    }
+
+    /* FOOTER */
+    .footer span {
+        font-size: 10px;
+    }
+
+}
+
+/* Tablet Version - sm */
+@media screen and (min-width: 768px) {
+
+    h2,
+    h3 {
+        padding-top: 20px;
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    /* JUMBOTRON */
+
+    .jumbotron span {
+        font-size: 16px;
+    }
+
+    /* PORTFOLIO */
+    .portfolio {
+        padding: auto;
+        padding-bottom: 10px;
+    }
+
+    .portfolio h2 {
+        margin-top: 20px;
+        padding-top: 0;
+    }
+
+    .portfolio img {
+        margin-bottom: 20px;
+    }
+
+    /* ABOUT */
+    .about-paragraph {
+        padding-bottom: 15px;
+    }
+
+    .about .download {
+        padding-top: 10px;
+    }
+
+    /* CONTACT */
+    .registration-form input {
+        width: 80%
+    }
+
+    /* PREFOOTER */
+    .prefooter {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+
+    .prefooter span {
+        font-size: 16px;
+    }
+
+    .prefooter .fa-google-plus-g {
+        padding: 15px 14px;
+    }
+
+    .prefooter .fa-facebook-f {
+        padding: 15px 17px;
+    }
+
+    .prefooter i {
+        font-size: 9px;
+    }
+
+    /* FOOTER */
+    .footer span {
+        font-size: 13px;
+    }
+
+}
+
+}
+     
